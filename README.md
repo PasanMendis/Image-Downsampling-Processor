@@ -5,18 +5,18 @@ Design and Implementation of RISC related processor using VERILOG HDL and XILINX
 ## compileme.py
 a little-higher level asm compiler (don't rely solely on this for error detection)
 
-usage:
+Usage:
 
 python compileme.py <input file name(required)> <output file names(optional)>
 
-#### features:
+#### Features:
 
 1. jump statements can be used with labels as destination
 2. immediate constants for add, sub, mul and div instructions will be resolved automatically
 3. immediate addressing for load and store instructions will be resolved automatically
 4. uartsend can be directly used to send a string of characters
 
-#### example:
+#### Example:
 
 load 4096
 
